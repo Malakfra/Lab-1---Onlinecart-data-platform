@@ -1,0 +1,8 @@
+# QuickCart Data Platform - Python packages
+# This file grows during the semester: each week adds the packages it needs.
+# Course staff: after the pre-semester dry run, replace these ranges with the exact
+# versions you tested (run "pip freeze" in your tested environment).
+
+# ---- Week 1 ----
+pandas>=2.2,<4        # tables (DataFrames) - reading CSV and JSON
+ipykernel>=6.29       # lets VS Code run Jupyter notebooks with this environment

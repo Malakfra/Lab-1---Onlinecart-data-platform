@@ -1,0 +1,23 @@
+# ---- Things Git must NEVER store ----
+
+# The virtual environment (thousands of files; every person creates their own)
+.venv/
+venv/
+
+# Secrets and passwords (used from Week 3)
+.env
+
+# Data files: they are large, can be regenerated with your seed, and may contain
+# personal data. Only the empty folder markers (.gitkeep) are stored.
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# Python and Jupyter temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
